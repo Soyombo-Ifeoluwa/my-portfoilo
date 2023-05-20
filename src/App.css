@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+  .details{
+    text-align:left;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    margin-top:150px;
+    margin-left: 20px;
+}
+
+.REPO{
+    display: flex;
+    text-align:left;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.name{
+    font-family: 'Cairo', sans-serif;
+}
+
+.d-details{
+    font-size:20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.image{
+    border-radius:50%;
+    border:5px solid purple;
+    width:35%;
+    height: auto ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.imag{
+    border-radius: 8px;
+    width:45%;
+    height:auto;
+    border: 1px solid purple ;
+    padding: 5px;
+    margin-left:100px;
+    -ms-transform: rotate(8deg); 
+    transform: rotate(8deg);
+}
+  
+
+
+.icons2{
+    width: 40%;
+    height:8%;
+    text-decoration: none;
+    border:1px solid purple;
+    background-color: black;
+    -ms-transform: rotate(10deg); 
+    transform: rotate(10deg);
+}
+.z{
+    margin-left:300px;
+
+}
+
+#a{
+    color:#61DBFB;
+    
+}
+#b{
+    color: #f06529;
+    background-color:white;
+    margin-left:300px;
+}
+#c{
+   color: #264de4;
+   background-color: white;
+
+}
+#d{
+    color:yellow;
+    margin-left:300px;
+
+}
+#e{
+    color:#42b883;
+    background:#35495e;
+}
+#f{
+    color: #68a063;
+    background-color:#303030;
+    margin-left:300px;
+
+}
+#g{
+    color:purple;
+    background-color: white;
+}
+#icon{
+    display: block;
+}
+
+.icons{
+    width: 250%;
+    height:5%;
+    margin-left:0px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#icon1{
+    color:white;
+    background-color: #171515;
+}
+#icon2{
+    color: #264de4;
+    background-color: white;
+}
+#icon3{
+   color: #F4B400;
+   background-color: white;
+}
+.social{
+    font-size:20px;
+    font-family: 'Julee', cursive;
+    margin-top:100px;
+    display:flex;
+    margin-left:50px;
+}
+.cv{
+  font-size: 15px;
+  font-family: 'Darumadrop One', cursive;
+}
+
+.d-icons{
+    font-size:20px;
+}
+
+.skills{
+    margin-left:600px;
+  
+
+}
+
+.skill{
+    font-size: 30px;
+}
+#p{
+    margin-right:100px;
+    font-size:20px;
+}
+#h1{
+    font-family: 'Cairo', sans-serif;
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Darumadrop One', cursive;
+}
+a:hover{
+    color:white;
+}
+
+.nav{
+  margin-left:100px;
+}
