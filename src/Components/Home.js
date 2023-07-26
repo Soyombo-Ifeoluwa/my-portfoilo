@@ -1,11 +1,15 @@
 import Bar from "../Components/Sidebar.js";
 import Skills from "./Skills.js";
 import {Link} from 'react-router-dom'
-import Header from "../Navigation/Header.js";
-
+import { Helmet } from "react-helmet";
 const Home = () => {
   return (
     <section>
+       <Helmet>
+          <title>Soyombo's Portfoilo</title>
+          <link rel="canonical" href="/" />
+          <meta name="description" content="My Portfoilo" />
+        </Helmet>
       
       <div className="details">
         <div className="Name">

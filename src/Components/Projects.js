@@ -1,8 +1,14 @@
 import Header from "../Navigation/Header.js";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
   return (
     <section>
+      <Helmet>
+          <title>Soyombo's Projects</title>
+          <link rel="canonical" href="/projects" />
+          <meta name="description" content="My Projects" />
+        </Helmet>
       <div>
         <Header />
       </div>
