@@ -1,3 +1,4 @@
+import "./Size.css" ;
 import Bar from "../Components/Sidebar.js";
 import Skills from "./Skills.js";
 import {Link} from 'react-router-dom'
@@ -8,7 +9,7 @@ const Home = () => {
        <Helmet>
           <title>Soyombo's Portfoilo</title>
           <link rel="canonical" href="/" />
-          <meta name="description" content="My Portfoilo" />
+          <meta name="description" content="Soyombo Ifeoluwa" />
         </Helmet>
       
       <div className="details">
@@ -29,6 +30,7 @@ const Home = () => {
           <img src="./Assets/picture.jpeg" alt="my pic" className="image" />
         </div> 
       </div>
+      
       <div className="About">
         <h3>ABOUT ME</h3>
 
@@ -53,14 +55,12 @@ My journey into the world of web development began several years ago,<br/>
 
       </div>
 
-      <div id="icon">
-       <div className="social">
+      <div >
        
       <div>
         <Skills/>
       </div>
        
-      </div>
       <div className="cv">
         <h2>Download <a href="./Assets/download.pdf"> My RESUME</a></h2>
       </div>

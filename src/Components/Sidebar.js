@@ -1,3 +1,4 @@
+import "./Size.css";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";

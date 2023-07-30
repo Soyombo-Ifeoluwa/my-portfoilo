@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+    .details{
+        display:unset;
+        margin-top:50px;
+    }
+    .Bar{
+        text-align: center;
+    }
+    .icons{
+        width: 5.5%;
+        height:auto;
+    }
+     .img{
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    .image{
+        border: 5px solid white;
+        border-radius:50%;
+        width:70%;
+        height: auto;
+        margin-top: 20px;
+        box-shadow:  
+        20px -18px 5px #7d547d;  
+    }
+    
+    .icons2{
+        color:white;
+        border: 2px solid #9a61b3; 
+        padding: 30px 30px;
+        margin-top: 20px;
+        border-radius: 20px;
+        width: 35%;
+        height:auto;
+        text-decoration: none;   
+    }  
+    .REPO-FLEX{
+        display: unset;
+    }
+    .REPO{
+        margin-left: 5px;
+        margin-top: 50px;
+        
+    }
+    
+    
+   }
+
+
+@media only screen and ( min-width:601px) {
+   
+    .image{
+        border: 5px solid rgb(16, 16, 16);
+        border-radius:50%;
+        width:80%;
+        height: auto;
+        margin-top: 20px;
+        box-shadow:  
+        20px -18px 5px #7d547d;  
+    }
+
+    .REPO{
+        width:80%;
+        height: 90%;
+        text-align:center;
+    }
+    .REPO-FLEX{
+        
+        margin-left: 1px;
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 10px;
+    }
+
+}
+  

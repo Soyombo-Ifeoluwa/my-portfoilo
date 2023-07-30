@@ -14,6 +14,7 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
   .details{
+    text-align: center;
     display: grid;
     align-items: center; 
     grid-template-columns: 5fr 5fr 1fr;
@@ -68,7 +69,7 @@
 }
 
 .Name{
-    margin-left: 200px;
+    text-align: center;
     font-size: 25px;
     margin-top: 10px;
     font-family:'Times New Roman', Times, serif ;
@@ -118,39 +119,33 @@
 
 .skills{
     text-align: center;
-    margin-left: 300px;
 }
 .d-icons{
-    margin-left: 100px;
+    text-align: center;
     display: grid;
     align-items: center; 
-    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-columns: 2fr 2fr 2fr;
     column-gap: 5px;
 }
 
-.span{
-    color:white;
-    border: 1px solid white;
-    background-color:#9a61b3;
-    padding: 30px 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border-radius: 35px;
-    box-shadow:  
-             18px -18px 5px #7d547d;
-}
+
 
 .icons2{
-  
-    width: 70%;
-    height:10%;
-    text-decoration: none;
-    
+    color:white;
+    border: 2px solid #9a61b3; 
+    padding: 30px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 20%;
+    height:auto;
+    text-decoration: none;   
 } 
 
 
 #a{
     color:#61DBFB;
+    background-color:white;
+
     
 }
 #b{
@@ -165,6 +160,7 @@
 }
 #d{
     color:yellow;
+    background-color: white;
     /* margin-left:300px; */
 
 }
@@ -182,15 +178,15 @@
     color:purple;
     background-color: white;
 }
-#icon{
+/* #icon{
     display: block;
-}
+} */
 
 .icons{
     padding: 3px 5px;
-    width: 50%;
+    width: 4.5%;
     height:auto;
-    margin-left:10px;
+    margin-left:25px;
     text-decoration: none;
     color: white;
     border: 1px solid;
@@ -202,35 +198,25 @@
 #icon0{
    color: #264de4;
    background-color: white;
-   margin-left: 40px;
 }
 
 #icon1{
     color:white;
     background-color: #171515;
-    margin-left: 40px;
     
 }
 #icon2{
     color: #264de4;
     background-color: white;
-    margin-left: 40px;
 }
 #icon3{
    color: #F4B400;
    background-color: white;
-   margin-left: 40px;
 }
-.social{
-    font-size:20px;
-    font-family: 'Julee', cursive;
-    margin-top:100px;
-    display:flex;
-    margin-left:50px;
-}
+
 .cv{
+    text-align: center;
     margin-top:20px ;
-    margin-left: 700px;
   font-size: 30px;
   font-family: 'Darumadrop One', cursive;
 }
@@ -243,7 +229,6 @@
 
 .skill{
     font-size: 30px;
-    margin-left: 100px;
 }
 .skill h2{
     color:#561e6e;
@@ -280,10 +265,9 @@ a:hover{
 }
 
 .nav{
-  margin-left:100px;
-  font-size: 30px;
+    margin-left: 30px;
+  font-size: 25px;
   color: #561e6e;
-  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
 
 
@@ -294,13 +278,11 @@ a:hover{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .header{
-    margin-right: 100px;
-    text-align: right;
+    text-align: center;
     
 }
 .Bar{
-    margin-left:10px;
-    display:flex;
+    text-align: center;
 }
 
 .version{

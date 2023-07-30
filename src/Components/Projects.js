@@ -1,3 +1,4 @@
+import "./Size.css";
 import Header from "../Navigation/Header.js";
 import { Helmet } from "react-helmet";
 
@@ -7,11 +8,12 @@ const Projects = () => {
       <Helmet>
           <title>Soyombo's Projects</title>
           <link rel="canonical" href="/projects" />
-          <meta name="description" content="My Projects" />
+          <meta name="description" content="Soyombo Ifeoluwa" />
         </Helmet>
       <div>
         <Header />
       </div>
+      
       <div>
         <h1 id="h1">MY PROJECTS</h1>
       </div>

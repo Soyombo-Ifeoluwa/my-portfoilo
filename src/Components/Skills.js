@@ -1,3 +1,4 @@
+import "./Size.css";
 import { FaReact } from "react-icons/fa";
 import { SiHtml5 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
